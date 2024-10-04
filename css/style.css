@@ -66,7 +66,7 @@ body {
 }
 
 .btn-custom {
-  box-shadow: #fff -2px -2px 5px;
+  box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 1);
 }
 
 .btn-transparent {
@@ -109,6 +109,30 @@ body {
 .main {
   background-color: #171422;
   padding-top: 100px;
+}
+
+.main__wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  justify-content: start;
+}
+
+.subtitle {
+  padding: 40px 47px 50px 40px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right,
+    #ffa462,
+    #b45350 22%,
+    #8a2645 49%,
+    #291725 85%
+  );
+}
+
+.subtitle__text {
+  color: #fff;
+  font-size: 22px;
 }
 
 .aside {
@@ -192,4 +216,107 @@ body {
 .card__link span {
   font-size: 14px;
   font-weight: bold;
+}
+
+.reason {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  justify-content: start;
+  margin-top: 60px;
+}
+
+.reason__number {
+  font-size: 183px;
+  font-weight: 800;
+  background-image: linear-gradient(#8a2645, #291725 67%, #171422 99%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.1;
+}
+
+.reason__text {
+  margin-top: 30px;
+}
+
+.reason-first {
+  max-width: 886px;
+}
+
+.reason__img-box {
+  margin-top: 41px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 41px;
+}
+
+.reason__img-wrap {
+  height: 62px;
+  max-width: 268px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reason__text-small {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 18px;
+}
+
+.reason__third-box {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.presentation {
+  margin-top: 182px;
+  position: relative;
+}
+
+.presentation__arrows {
+  position: absolute;
+  top: -170px;
+  right: 250px;
+}
+
+.presentation__pdf {
+  position: relative;
+}
+
+.presentation__ai-pencil img {
+  position: absolute;
+}
+
+.presentation__ai-pencil img:first-child {
+  top: 60px;
+  left: -220px;
+}
+
+.presentation__ai-pencil img:nth-child(2) {
+  top: 60px;
+  left: 470px;
+}
+
+.presentation__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 166px;
+}
+
+.presentation__wpapper-trio {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.presentation-img {
+  border-radius: 10px;
 }
